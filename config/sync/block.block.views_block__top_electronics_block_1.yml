@@ -1,0 +1,29 @@
+uuid: 79af2175-22f6-4148-a30e-dcd19d722f40
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_electronics
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__top_electronics_block_1
+theme: bootstrap5
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:top_electronics-block_1'
+settings:
+  id: 'views_block:top_electronics-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

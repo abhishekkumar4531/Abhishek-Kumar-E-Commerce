@@ -1,0 +1,30 @@
+uuid: c7fa964b-d68b-4e6d-b268-125e457d15f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+id: paragraph.field_image1
+field_name: field_image1
+entity_type: paragraph
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: private
+  default_image:
+    uuid: 654e5b28-b65c-4a4f-b4eb-290c205b6494
+    alt: ''
+    title: ''
+    width: 2000
+    height: 1333
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

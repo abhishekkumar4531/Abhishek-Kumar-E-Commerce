@@ -1,0 +1,23 @@
+uuid: 4592f7f2-d0ba-4b36-8d4c-7ab82a285b1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mobile
+  module:
+    - text
+id: node.mobile.body
+field_name: body
+entity_type: node
+bundle: mobile
+label: 'Mobile Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

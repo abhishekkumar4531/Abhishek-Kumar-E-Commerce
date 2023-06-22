@@ -1,0 +1,22 @@
+uuid: 666107c5-4a41-4bab-bc7f-94ca62c9aaf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.electronics
+id: node.electronics.status
+field_name: status
+entity_type: node
+bundle: electronics
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

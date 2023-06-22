@@ -1,0 +1,34 @@
+uuid: 266bbcd1-20f9-4314-a707-5fdf634629ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.top_electronics
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: entity_subqueue.top_electronics.default
+targetEntityType: entity_subqueue
+bundle: top_electronics
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

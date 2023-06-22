@@ -1,0 +1,26 @@
+uuid: f30bfd06-31da-4d97-b81a-9965d709c982
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.appliance
+    - node.type.electronics
+    - node.type.grocery
+  module:
+    - entityqueue
+    - node
+id: content_1_admin
+label: 'Content-1 Admin'
+weight: 5
+is_admin: null
+permissions:
+  - 'create appliance content'
+  - 'create electronics content'
+  - 'create grocery content'
+  - 'delete own appliance content'
+  - 'delete own electronics content'
+  - 'delete own grocery content'
+  - 'edit own appliance content'
+  - 'edit own electronics content'
+  - 'edit own grocery content'
+  - 'update top_electronics entityqueue'

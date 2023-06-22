@@ -1,0 +1,20 @@
+uuid: d4c5926e-cb71-410c-a050-e5368306fef5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_electronics_price
+field_name: field_electronics_price
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 5
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

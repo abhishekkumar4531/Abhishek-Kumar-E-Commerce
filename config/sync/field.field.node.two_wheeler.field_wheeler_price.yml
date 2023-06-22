@@ -1,0 +1,23 @@
+uuid: 59b083e3-0c14-4c0e-a416-74248a381f27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wheeler_price
+    - node.type.two_wheeler
+id: node.two_wheeler.field_wheeler_price
+field_name: field_wheeler_price
+entity_type: node
+bundle: two_wheeler
+label: 'Wheeler Price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 1200000.0
+  prefix: Rs
+  suffix: /-
+field_type: float

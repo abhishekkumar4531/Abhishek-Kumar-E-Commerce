@@ -1,0 +1,24 @@
+uuid: a8b1d2d5-ee5b-47f2-b617-3ba4e96c5fa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app
+    - node.type.appliance
+  module:
+    - datetime
+id: node.appliance.field_app
+field_name: field_app
+entity_type: node
+bundle: appliance
+label: 'Appliance publishing date'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

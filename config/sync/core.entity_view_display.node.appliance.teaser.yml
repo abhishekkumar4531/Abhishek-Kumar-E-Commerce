@@ -1,0 +1,38 @@
+uuid: ade68479-63f7-440a-8d7f-f29c3fcf70b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.appliance.body
+    - field.field.node.appliance.field_app
+    - field.field.node.appliance.field_appliance_image
+    - field.field.node.appliance.field_appliance_name
+    - field.field.node.appliance.field_appliance_price
+    - node.type.appliance
+  module:
+    - text
+    - user
+id: node.appliance.teaser
+targetEntityType: node
+bundle: appliance
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_app: true
+  field_appliance_image: true
+  field_appliance_name: true
+  field_appliance_price: true

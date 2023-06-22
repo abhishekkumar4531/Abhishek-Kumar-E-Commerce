@@ -1,0 +1,21 @@
+uuid: f19f91b6-80b8-4a66-9a99-90899f5c5b0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_goods_publishing_date
+    - node.type.home_furniture
+  module:
+    - datetime
+id: node.home_furniture.field_goods_publishing_date
+field_name: field_goods_publishing_date
+entity_type: node
+bundle: home_furniture
+label: 'Goods Publishing Date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: 153f7dcb-b1b6-4c92-9336-bcc591b73cc1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: mobile
+label: Mobile
+type: 'canonical_entities:node'
+pattern: 'mobile/[node:title]'
+selection_criteria:
+  319bdf48-9df7-4091-ada3-e464ee3c6602:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 319bdf48-9df7-4091-ada3-e464ee3c6602
+    context_mapping:
+      node: node
+    bundles:
+      mobile: mobile
+selection_logic: and
+weight: -5
+relationships: {  }

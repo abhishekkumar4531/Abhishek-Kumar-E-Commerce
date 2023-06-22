@@ -1,0 +1,23 @@
+uuid: 7395a436-cb4e-4978-8574-f754f0367558
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.two_wheeler
+  module:
+    - text
+id: node.two_wheeler.body
+field_name: body
+entity_type: node
+bundle: two_wheeler
+label: 'Wheeler Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

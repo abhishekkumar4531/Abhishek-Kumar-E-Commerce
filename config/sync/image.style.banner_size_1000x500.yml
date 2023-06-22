@@ -1,0 +1,14 @@
+uuid: faa63ae1-70a5-4ef9-946d-a45c2673eb86
+langcode: en
+status: true
+dependencies: {  }
+name: banner_size_1000x500
+label: 'Banner size 1000X500'
+effects:
+  cd79954f-506f-44bc-b714-1a7271b72b79:
+    uuid: cd79954f-506f-44bc-b714-1a7271b72b79
+    id: image_resize
+    weight: 1
+    data:
+      width: 1200
+      height: 500

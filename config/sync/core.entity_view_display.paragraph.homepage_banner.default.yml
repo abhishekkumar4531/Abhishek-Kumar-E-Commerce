@@ -1,0 +1,27 @@
+uuid: cf0f2c5d-d81a-4593-bd41-32f2a0fa46a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.homepage_banner.field_image1
+    - image.style.banner_size_1000x500
+    - paragraphs.paragraphs_type.homepage_banner
+  module:
+    - image
+id: paragraph.homepage_banner.default
+targetEntityType: paragraph
+bundle: homepage_banner
+mode: default
+content:
+  field_image1:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: banner_size_1000x500
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,38 @@
+uuid: be497157-54d3-435f-8b41-2440186d27b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mobile.body
+    - field.field.node.mobile.field_mobile_image
+    - field.field.node.mobile.field_mobile_name
+    - field.field.node.mobile.field_mobile_price
+    - field.field.node.mobile.field_mobile_published_date
+    - node.type.mobile
+  module:
+    - text
+    - user
+id: node.mobile.teaser
+targetEntityType: node
+bundle: mobile
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_mobile_image: true
+  field_mobile_name: true
+  field_mobile_price: true
+  field_mobile_published_date: true

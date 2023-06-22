@@ -1,0 +1,22 @@
+uuid: b2b5407d-5d00-4034-bc0a-84f3da3d9f92
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion
+    - node.type.home_furniture
+  module:
+    - entityqueue
+    - node
+id: content_2_admin
+label: 'Content-2 Admin'
+weight: 6
+is_admin: null
+permissions:
+  - 'create fashion content'
+  - 'create home_furniture content'
+  - 'delete own fashion content'
+  - 'delete own home_furniture content'
+  - 'edit own fashion content'
+  - 'edit own home_furniture content'
+  - 'update top_mobile entityqueue'

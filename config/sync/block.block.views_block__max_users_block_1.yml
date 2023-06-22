@@ -1,0 +1,29 @@
+uuid: dbfeef12-4682-40b1-a7e3-b1f7c9deee17
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.max_users
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__max_users_block_1
+theme: bootstrap5
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:max_users-block_1'
+settings:
+  id: 'views_block:max_users-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

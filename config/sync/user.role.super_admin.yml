@@ -1,0 +1,55 @@
+uuid: 69a32836-13cd-44d5-bf86-15f0b7cc04a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.appliance
+    - node.type.electronics
+    - node.type.fashion
+    - node.type.grocery
+    - node.type.home_furniture
+    - node.type.two_wheeler
+  module:
+    - entityqueue
+    - node
+id: super_admin
+label: 'Super Admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer entityqueue'
+  - 'create appliance content'
+  - 'create electronics content'
+  - 'create fashion content'
+  - 'create grocery content'
+  - 'create home_furniture content'
+  - 'create two_wheeler content'
+  - 'delete any appliance content'
+  - 'delete any electronics content'
+  - 'delete any fashion content'
+  - 'delete any grocery content'
+  - 'delete any home_furniture content'
+  - 'delete any two_wheeler content'
+  - 'delete own appliance content'
+  - 'delete own electronics content'
+  - 'delete own fashion content'
+  - 'delete own grocery content'
+  - 'delete own home_furniture content'
+  - 'delete own two_wheeler content'
+  - 'edit any appliance content'
+  - 'edit any electronics content'
+  - 'edit any fashion content'
+  - 'edit any grocery content'
+  - 'edit any home_furniture content'
+  - 'edit any two_wheeler content'
+  - 'edit own appliance content'
+  - 'edit own electronics content'
+  - 'edit own fashion content'
+  - 'edit own grocery content'
+  - 'edit own home_furniture content'
+  - 'edit own two_wheeler content'
+  - 'manipulate all entityqueues'
+  - 'manipulate entityqueues'
+  - 'update top_electronics entityqueue'
+  - 'update top_fashion entityqueue'
+  - 'update top_mobile entityqueue'
