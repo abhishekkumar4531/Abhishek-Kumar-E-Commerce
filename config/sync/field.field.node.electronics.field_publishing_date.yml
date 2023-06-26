@@ -1,0 +1,24 @@
+uuid: e386b517-ad67-4951-9cb8-bc3c877492a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publishing_date
+    - node.type.electronics
+  module:
+    - datetime
+id: node.electronics.field_publishing_date
+field_name: field_publishing_date
+entity_type: node
+bundle: electronics
+label: 'publishing Date'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

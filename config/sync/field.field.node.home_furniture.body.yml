@@ -1,0 +1,23 @@
+uuid: b2c8efab-01f9-480f-a658-273ddbc7e420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.home_furniture
+  module:
+    - text
+id: node.home_furniture.body
+field_name: body
+entity_type: node
+bundle: home_furniture
+label: 'Goods Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

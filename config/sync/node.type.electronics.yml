@@ -1,0 +1,17 @@
+uuid: 3c255cdd-1be6-4833-a520-a17e68d87363
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Electronics
+type: electronics
+description: 'Add your electronics product'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

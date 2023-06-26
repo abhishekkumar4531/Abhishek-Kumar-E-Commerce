@@ -1,0 +1,21 @@
+uuid: 285abd08-b2e3-436a-826f-e122376ef1d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_wheeler_name
+field_name: field_wheeler_name
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: c9f62984-0afa-45cd-8869-e332dde2c75d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: electronics
+label: Electronics
+type: 'canonical_entities:node'
+pattern: 'electronics/[node:title]'
+selection_criteria:
+  e2de2ef4-1f7e-41be-99aa-2a05aaa97ac3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e2de2ef4-1f7e-41be-99aa-2a05aaa97ac3
+    context_mapping:
+      node: node
+    bundles:
+      electronics: electronics
+selection_logic: and
+weight: -5
+relationships: {  }

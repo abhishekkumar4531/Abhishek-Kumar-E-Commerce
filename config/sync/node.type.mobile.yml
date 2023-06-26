@@ -1,0 +1,17 @@
+uuid: 3bb836b9-b2d2-4632-b81a-3b8ef7602e07
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Mobile
+type: mobile
+description: 'Add your Mobile'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

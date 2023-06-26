@@ -1,0 +1,22 @@
+uuid: af70354d-6d59-4ba6-8dd7-18da83a24172
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.electronics
+id: node.electronics.promote
+field_name: promote
+entity_type: node
+bundle: electronics
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

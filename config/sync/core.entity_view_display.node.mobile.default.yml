@@ -1,0 +1,73 @@
+uuid: 7f94191b-ff12-41fa-84a0-5a8f094f39d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mobile.body
+    - field.field.node.mobile.field_mobile_image
+    - field.field.node.mobile.field_mobile_name
+    - field.field.node.mobile.field_mobile_price
+    - field.field.node.mobile.field_mobile_published_date
+    - node.type.mobile
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.mobile.default
+targetEntityType: node
+bundle: mobile
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_mobile_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_mobile_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_mobile_price:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_mobile_published_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

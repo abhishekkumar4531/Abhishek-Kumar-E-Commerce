@@ -1,0 +1,34 @@
+uuid: cfd1312e-c648-4c45-92b3-c2d692f58f45
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.top_fashion
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: entity_subqueue.top_fashion.default
+targetEntityType: entity_subqueue
+bundle: top_fashion
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

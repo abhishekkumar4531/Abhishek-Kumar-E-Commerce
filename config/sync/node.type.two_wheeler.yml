@@ -1,0 +1,17 @@
+uuid: acd23e77-8216-4415-9eaf-7e34b7cab88e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Two Wheeler'
+type: two_wheeler
+description: 'Add two wheelers'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,20 @@
+uuid: b177f311-b459-4ee3-ac24-e5431c047634
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_wheeler_publishing_date
+field_name: field_wheeler_publishing_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

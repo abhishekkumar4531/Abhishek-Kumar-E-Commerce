@@ -1,0 +1,38 @@
+uuid: 7a3de41d-83d3-4820-a167-2c07203762f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.two_wheeler.body
+    - field.field.node.two_wheeler.field_wheeler_image
+    - field.field.node.two_wheeler.field_wheeler_name
+    - field.field.node.two_wheeler.field_wheeler_price
+    - field.field.node.two_wheeler.field_wheeler_publishing_date
+    - node.type.two_wheeler
+  module:
+    - text
+    - user
+id: node.two_wheeler.teaser
+targetEntityType: node
+bundle: two_wheeler
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_wheeler_image: true
+  field_wheeler_name: true
+  field_wheeler_price: true
+  field_wheeler_publishing_date: true

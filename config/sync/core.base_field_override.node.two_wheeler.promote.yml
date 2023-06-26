@@ -1,0 +1,22 @@
+uuid: 39115432-9432-439f-a140-1ea2e006a259
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.two_wheeler
+id: node.two_wheeler.promote
+field_name: promote
+entity_type: node
+bundle: two_wheeler
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

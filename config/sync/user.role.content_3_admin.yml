@@ -1,0 +1,18 @@
+uuid: 50eea5c7-01e7-4426-bec4-59f111fab667
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.two_wheeler
+  module:
+    - entityqueue
+    - node
+id: content_3_admin
+label: 'Content-3 Admin'
+weight: 7
+is_admin: null
+permissions:
+  - 'create two_wheeler content'
+  - 'delete own two_wheeler content'
+  - 'edit own two_wheeler content'
+  - 'update top_fashion entityqueue'

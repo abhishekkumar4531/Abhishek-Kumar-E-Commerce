@@ -1,0 +1,19 @@
+uuid: b5965698-b290-407b-aa64-c3bc0a3f864a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_appliance_name
+    - node.type.appliance
+id: node.appliance.field_appliance_name
+field_name: field_appliance_name
+entity_type: node
+bundle: appliance
+label: 'Appliance name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
